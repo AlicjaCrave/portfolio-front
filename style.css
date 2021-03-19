@@ -1,0 +1,62 @@
+body {
+    font-family: 'Chango', cursive;
+    background-color: aqua;
+    margin: auto;
+
+}
+
+#top{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#top a{
+    margin: 0 20px;
+}
+
+main{
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: center;
+}
+.photos img {
+    height: 300px;
+    padding: 10px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: plum;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#bottom div{
+    margin: 0 20px;
+    display: inline-block;
+}
+
+
+
+
