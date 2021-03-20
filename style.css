@@ -1,53 +1,61 @@
 body {
-    font-family: 'Chango', cursive;
-    background-color: aqua;
-    margin: auto;
-
+    font-family: 'Mitr', sans-serif;
+    background-color: lightgray;
 }
 
 #top{
-    background-color: pink;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     margin: auto;
+
     padding: 10px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+
 }
 
 #top a{
     margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 2%;
 }
 
 main{
     display: flex;
-    background-color: orange;
+    background-color: white;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding: 10px;
+
 }
 
 .photos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-justify-content: center;
+    justify-content: center;
+   margin: 10px;
 }
 .photos img {
-    height: 300px;
+    height: 250px;
+    width: 250px;
     padding: 10px;
 }
-
-
 
 footer {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    background-color: plum;
-    width: 80%;
+    background-color: white;
+    width: 60%;
     margin: auto;
     padding: 10px;
 }
@@ -55,8 +63,41 @@ footer {
 #bottom div{
     margin: 0 20px;
     display: inline-block;
+    color: grey;
+}
+a { 
+    color: grey;
 }
 
+/* about page specific css */
+.portrait {
+    display: flex;
+    justify-content: center;
+    background-image: url("ph.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: auto;
+}
+.about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    padding: 1%;
+    width: 60%;
+    margin: auto;
+}
+.about h2{
+    font-weight: bolder;
+    font-size: 1.2;
+}
+#top-about{
+    display: flex;
+    justify-content: center;
+}
+#top-about a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
 
 
 

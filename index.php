@@ -1,29 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css"> 
-   
-</head>
-<body>
-    <header>
-        <nav id="top">
-                <a href="#">Pierre-Henri Crave</a> 
-                <a href="#">About</a> 
-        </nav>
-    </header>
+<?php include 'composants/header.php'; ?>
     <main>
         <div class="photos">
-            <img src="carres/barbie.jpg" alt="">
-            <img src="carres/blue.jpg" alt="">
-            <img src="/bottle.jpg" alt="">
-            <img src="/buttermacro.jpg" alt="">
+            <a href="individual.php">
+                <img src="carres/barbie.jpg" alt="barbie glass">
+            </a>
+            <a href="">
+            <img src="carres/blue.jpg" alt="femme fond bleu">
+            </a> 
+            <a href="">
+            <img src="carres/bottle.jpg" alt="feemme reflection">
+            </a>   
+            <img src="carres/buttermacro.jpg" alt="">
             <img src="carres/cat.jpg" alt="">
             <img src="carres/chemin.jpg" alt="">
             <img src="carres/couple.jpg" alt="">
@@ -31,7 +18,7 @@
             <img src="carres/electricity.jpg" alt="">
             <img src="carres/faraway.jpg" alt="">
             <img src="carres/forest.jpg" alt="">
-            <img src="carres/headache.jpg" alt="">
+            <img src="carres/hedache.jpg" alt="">
             <img src="carres/light.jpg" alt="">
             <img src="carres/pigon.jpg" alt="">
             <img src="carres/pot.jpg" alt="">
@@ -50,16 +37,4 @@
             <img src="carres/weeping.jpg" alt="">
         </div>
     </main>
-
-    <footer>
-        <nav id="bottom">
-            <div id="social">
-                <a href="facebook.com">f</a>
-                <a href="instagram.com">i</a>
-                <a href="twitter.com">t</a>
-            </div> 
-            <div id="droits">C 2021 | Pierre-Henri Crave</div>  
-        </nav>  
-    </footer>
-</body>
-</html>
+    <?php include 'composants/footer.php'; ?>
