@@ -1,15 +1,15 @@
 <?php include 'composants/header.php'; ?>
-    <main>
+    <header>
+        <nav id="top">
+                <a href="index.php">PH Crave</a> 
+                <a href="about.php">About</a> 
+        </nav>
+    </header>
+    <main class="main">
         <div class="photos">
-            <a href="individual.php">
-                <img src="carres/barbie.jpg" alt="barbie glass">
-            </a>
-            <a href="">
+            
             <img src="carres/blue.jpg" alt="femme fond bleu">
-            </a> 
-            <a href="">
             <img src="carres/bottle.jpg" alt="feemme reflection">
-            </a>   
             <img src="carres/buttermacro.jpg" alt="">
             <img src="carres/cat.jpg" alt="">
             <img src="carres/chemin.jpg" alt="">
@@ -35,6 +35,7 @@
             <img src="carres/way.jpg" alt="">
             <img src="carres/waylight.jpg" alt="">
             <img src="carres/weeping.jpg" alt="">
+
         </div>
     </main>
     <?php include 'composants/footer.php'; ?>
