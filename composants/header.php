@@ -17,9 +17,3 @@
 </head>
 
 <body>
-    <header>
-        <nav id="top">
-                <a href="index.php">Pierre-Henri Crave</a> 
-                <a href="about.php">About</a> 
-        </nav>
-    </header>

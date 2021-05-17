@@ -5,8 +5,9 @@
                 <a href="twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 <a href="instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div> 
-            <div id="droits"><i class="fa fa-copyright" aria-hidden="true"></i>
- 2021 | Pierre-Henri Crave</div>  
+
+            <div id="droits">
+            <i class="fa fa-copyright" aria-hidden="true"></i>  <p> 2021 | Pierre-Henri Crave</p></div>  
         </nav>  
     </footer>
 </body>
